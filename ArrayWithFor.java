@@ -9,7 +9,7 @@ public class ArrayWithFor{
 
          int sum = 0;
          for (int i = 0; i < iarray.length; i++){
-            sum = iarray[i];
+            sum = sum + iarray[i];
          }
 
          System.out.println(sum);
