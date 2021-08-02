@@ -11,10 +11,9 @@ public class Bus extends Car{
 
     public static void main(String[] args) {
 
-        Bus bus1 = new Bus("제네시스");
+        Car bus1 = new Car("제네시스");
         System.out.println(bus1.name);
 
-        bus1.ppangppang();
 
     }
 }

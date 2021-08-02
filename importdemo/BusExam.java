@@ -1,7 +1,7 @@
 public class BusExam {
     public static void main(String[] args) {
         
-        Bus bus = new Bus();
+        Bus bus = new Bus("Genesis");
         bus.run();
         bus.ppangppang();
 
